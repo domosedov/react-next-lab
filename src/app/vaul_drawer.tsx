@@ -23,7 +23,7 @@ export default function VaulDrawer({ classNames }: Props) {
         <Drawer.Overlay className="fixed inset-0 bg-black/40" />
         <Drawer.Content
           className={cx(
-            "bg-gray-100  flex flex-col fixed bottom-0 left-0 right-0 outline-none",
+            "bg-gray-100 flex flex-col fixed bottom-0 left-0 right-0 outline-none",
             classNames?.content
           )}
         >
